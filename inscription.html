@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d;inscription</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form action="https://formspree.io/f/xppagnd" method="POST">
+
+        <!-- Identification -->
+         <label for="nom">Nom:</label>
+         <input type="text" id="nom" name="Nom" required>
+
+         <label for="postnom">Post-nom:</label>
+         <input type="text" id="postnom" name required>
+
+         <label for="prenom">Prénom:</label>
+         <input type="text" id="prenom" name required>
+
+         <label for="dob">Date de naissance:</label>
+         <input type="date" id="dob" name="Date_de_naissance" required>
+
+         <label for="lieu de naissance">Lieu de naissance:</label>
+         <input type="text" id="lieu_de_naissance" name="Lieu_de_naissance" required>
+
+         <!--Parcours académique-->
+         <label for="niveau">Niveau d'etudes actuel:</label>
+         <select id="niveau" name="Niveau_actuel" required>
+            <option value="">--Sélectionnez--</option>
+            <option value="Baccalauréat/Diplome d'Etat"></option>
+            <option value="Graduat/Licence">Graduat/Licence</option>
+            <option value="Master">Master</option>
+            </select>
+
+        </label for="annee_diplome">Année d'obtention du diplome:</label>
+        <input type="number" id="annee_diplome" name="annee_diplome" min="2000" max="2030" required>
+
+        <!--Projet d'etudes -->
+        <label for="etudes_souhaitees">Etudes souhaitées à l'étranger</label>
+        <input type="text" id="etudes_souhaitees_etranger" placeholder="Ex:informatique,Gestion,Médecine,Archiyecture,Autre" required>
+
+        <!--Contact-->
+        <label for="email">Votre Email :</label>
+        <input type="email" id="email" name="educconnectafrica@gmail.com" required>
+
+        <button type="submit">Soumettre la candidature</button>
+
+         
+    </form>
+    
+</body>
+</html>
