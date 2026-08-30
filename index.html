@@ -1,460 +1,878 @@
-
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
+
 <head>
-  </titre>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Educ connect Africa  </title>
+
+    <meta
+        name="description"
+        content="Educ Connect Africa accompagne les étudiants et jeunes professionnels dans leurs projets académiques et professionnels."
+    >
+
+    <title>Educ Connect Africa | Construisez votre avenir</title>
+
+    <!-- Google Font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
 
     <link rel="stylesheet" href="style.css">
 
-    <!-- ICON -->
-     <link rel="stylesheet"
-
-     href="https://cdnjs.com/ajax/libs/font-awesome/6.5.1//css/all.min.css">
-     <link rel="preconnect"
-     href="https://fonts.googleapis.com">
-
-     <link rel="preconnect"
-     href="https://fonts.gstatic.com"
-     crossorigin>
-
-     <link
-     href="https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700&display=swap"
-     rel="stylesheet">
-
-     <link rel="stylesheet" href="https://cdnjs.clouflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
-<!-- NAVBAR -->
- <nav class="navbar">
 
-  <div class="logo">
-    Educ connect africa
-  </div>
-
-  <div class="menu-toggle"
-  id="menu-toggle">
-</div>
-
-<ul class="menu">
-
-  <li><a href="#">Accueil</a></li>
-  <li><a href="#services">Services</a></li>
-  <li><a href="#countries">Pays</a></li>
-  <li><a href="#about">A propos</a></li>
-  <li><a href="#contact">Contact</a></li>
+<body>
 
 
- </nav>
+    <!-- =====================================
+         NAVIGATION
+    ====================================== -->
 
- <!-- HERO -->
-  <section class="hero">
-    <div class="overlay"></div>
-    <div class="hero-content">
+    <header class="header" id="header">
 
-      <h1 id="typing"></h1>
-      
-      <strong>
-              <p id="bigtext">
-        Nous accompagnons les étudiants africains vers les meilleure universités du Maroc, Tunisie et la Biélorussie
-      </p>
-      </strong>
+        <nav class="navbar">
+
+            <!-- LOGO -->
+
+            <a href="index.html" class="logo">
+                Educ<span>Connect Africa</span>
+            </a>
 
 
-      <a href="https://wa.me/243843883007" target="_blank">
-        <button class="btn">Contacter</button>
-      </a>
+            <!-- MENU -->
 
-    </div>
-  </section>
+            <div class="nav-menu" id="nav-menu">
 
-  <!-- SERVICES -->
+                <a href="index.html" class="nav-link active">
+                    Accueil
+                </a>
 
-   <section class="Services reveal"
-   
-   id="services">
+                <a href="bourses.html" class="nav-link">
+                    Bourses
+                </a>
 
-    <h2>Nos Services</h2>
-    
-    <div class="cards">
+                <a href="formation.html" class="nav-link">
+                    Formations
+                </a>
 
-      <div class="card reveal">
-        <i class="fa-solid fa-graduation-cap"></i>
-        <h3>Orientation</h3>
-        <p>
-          Choix des villes, des universités et des formations adaptées.
-        </p>
-      </div>
+                <a href="soutien.html" class="nav-link">
+                    Soutien académique
+                </a>
 
-      <div class="card reveal">
-        <i class="fa-solid fa-file"></i>
-        <h3>Dossier</h3>
-        <p>
-          Assistances complète pour les documents et candidactures.
-        </p>
-      </div>
-      <div class="card reveal">
-        <i class="fa-solid fa-users"></i>
-        <h3>Coaching</h3>
-        
-          <p>préparation,accompagnement avant et après départ. </p>
-        </p>
-      </div>
-    </div>
+                <a href="stage.html" class="nav-link">
+                    Internship Bridge
+                </a>
 
-   </section>
+                <a href="apropos.html" class="nav-link">
+                    À propos
+                </a>
 
-   <!-- COUNTRIES -->
-    <section class="countries reveal"
-    id="countries">
-    <h2>Pays disponibles</h2>
+            </div>
 
-    <div class="country-container">
 
-      <div class="country-card">
+            <!-- BOUTON CONTACT -->
 
-        <img src="./assets/img/marroc 1.jpeg" alt="Maroc" id="maroc">
+            <a href="contact.html" class="nav-button">
+                Contact
+            </a>
 
-        <h3>
-          <i class="fa-solid fa-globe"></i>
-          Maroc
-        </h3>
 
-        <p>
-          universités modernes et plusieur Opportunités
-        </p>
-      </div>
+            <!-- MENU MOBILE -->
 
-      <div class="country-card">
+            <button
+                class="menu-button"
+                id="menu-button"
+                aria-label="Ouvrir le menu"
+            >
+                ☰
+            </button>
 
-      <img src="./assets/img/tunisie.jpeg" alt="Tunisie">
+        </nav>
 
-      <h3>
-        <i class="fa-solid fa-globe"></i>
-        Tunisie
-      </h3>
+    </header>
 
-      <p>
-        Formation de qualité et coût d'étude accessible.
-      </p>
-    </div>
-    <div class="country-card">
-      <img src="./assets/img/biolorussie.jpeg">
-      <h3>
-        <i class="fa-solid fa-globe"></i>
-        Biélorussie
-      </h3>
 
-      <p>
-        Etudes scientifiques et techniques reconnues.
-      </p>
-    </div>
-    </div>
-  </section>
 
-  <!-- STATS -->
+    <main>
 
-  <section class="stats reveal" >
 
-    <div class="stat-box">
-      <h2 class="counter" data-target="150">
-        +150
-      </h2>
-      <p>Etudiants accompagnés</p>
-    </div>
+        <!-- =====================================
+             HERO
+        ====================================== -->
 
-    <div class="stat-box">
-      <h2 class="counter" data-target="3">
-        3
-      </h2>
-      <p>
-        Maroc<br>
-        Tunisie<br>
-        Biélorussie
-      </p>
-    </div>
+        <section class="hero">
 
-    <div class="stat-box">
-      <h2 class="counter" data-target="95">
-        +90
-      </h2>
-      <P>Satisfation des étudiants</P>
-    </div>
+            <div class="hero-content">
 
-  </section>
 
-  <!-- ABOUT -->
-   <section class="about" id="about">
+                <span class="section-label">
+                    EDUC CONNECT AFRICA
+                </span>
 
-    <div class="about-text reveal">
 
-      <h2> Pourquoi nous choisir ?</h2>
-      <p>
-        Educonnect Africa student accompagne les jeunes etudiants africaines dans leur projets d'étudez à l'étranger
-        grâce à un encadrement sérieux, professionnel et personnalisé.
-      </p>
-    </div> 
-   </section>
+                <h1>
 
-   <!-- CONTACT -->
-    <section class="contact" id="contact">
+                    Construisez votre avenir
+                    <span>sans limites.</span>
 
-      <h2>Contzctez-nous</h2>
+                </h1>
 
-      <p>
-        <i class="fa-brands fa-whatsapp"></i>
-        Discuter sur WhatsApp
-      </p>
 
-      <a href="https://wa.me/2439843883007" target="_blank">
-        <button class="btn">
-          Ecrire sur whatsapp
-        </button>
-      </a>
-    </section>
+                <p>
 
-    <!-- WHY US -->
+                    Nous connectons les étudiants et les jeunes
+                    professionnels aux opportunités académiques
+                    et professionnelles qui peuvent transformer
+                    leur parcours.
 
-    <section class="why-us reveal" >
+                </p>
 
-      <h2>Pourquoi nous choisir ?</h2>
 
-      <div class="why-container">
+                <div class="hero-buttons">
 
-        <div class="why-card">
-          <h3>
-            <i class="fa-solid fa-users-graduate"></i>
-            accompagnement
-          </h3>
+                    <a
+                        href="bourses.html"
+                        class="btn btn-primary"
+                    >
+                        Découvrir les bourses →
+                    </a>
 
-          <p>
-            Nous vous guidonsn l'inscription jusqu'au départ.
-          </p>
+
+                    <a
+                        href="#services"
+                        class="btn btn-secondary"
+                    >
+                        Découvrir nos services
+                    </a>
+
+                </div>
+
+
+            </div>
+
+
+            <!-- ELEMENT VISUEL -->
+
+            <div class="hero-visual">
+
+                <div class="hero-card main-card">
+
+                    <div class="hero-card-icon">
+                        🌍
+                    </div>
+
+                    <span>
+                        Votre avenir
+                    </span>
+
+                    <strong>
+                        commence ici.
+                    </strong>
+
+                </div>
+
+
+                <div class="hero-floating-card card-one">
+
+                    🎓
+
+                    <span>
+                        Études
+                    </span>
+
+                </div>
+
+
+                <div class="hero-floating-card card-two">
+
+                    🚀
+
+                    <span>
+                        Carrière
+                    </span>
+
+                </div>
+
+
+                <div class="hero-floating-card card-three">
+
+                    💼
+
+                    <span>
+                        Opportunités
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             STATISTIQUES
+        ====================================== -->
+
+        <section class="stats-section">
+
+            <div class="stats-grid">
+
+
+                <div class="stat-box">
+
+                    <strong
+                        class="counter"
+                        data-target="+130"
+                    >
+                        0
+                    </strong>
+
+                    <span>
+                        Étudiants accompagnés
+                    </span>
+
+                </div>
+
+
+                <div class="stat-box">
+
+                    <strong
+                        class="counter"
+                        data-target="4"
+                    >
+                        0
+                    </strong>
+
+                    <span>
+                        Pays disponibles
+                    </span>
+
+                </div>
+
+
+                <div class="stat-box">
+
+                    <strong
+                        class="counter"
+                        data-target="4"
+                    >
+                        0
+                    </strong>
+
+                    <span>
+                        Services
+                    </span>
+
+                </div>
+
+
+                <div class="stat-box">
+
+                    <strong>
+                        100%
+                    </strong>
+
+                    <span>
+                        Engagement
+                    </span>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             SERVICES
+        ====================================== -->
+
+        <section
+            class="section"
+            id="services"
+        >
+
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    NOS SERVICES
+                </span>
+
+
+                <h2>
+                    Une plateforme pensée
+                    pour votre évolution.
+                </h2>
+
+
+                <p>
+                    Découvrez nos différents services et choisissez
+                    celui qui correspond le mieux à votre projet.
+                </p>
+
+            </div>
+
+
+
+            <div class="services-grid">
+
+
+                <!-- BOURSES -->
+
+                <article class="service-card">
+
+                    <div class="service-icon">
+                        🎓
+                    </div>
+
+
+                    <span class="service-number">
+                        01
+                    </span>
+
+
+                    <h3>
+                        Bourses d'études
+                    </h3>
+
+
+                    <p>
+                        Découvrez des opportunités d'études
+                        à l'étranger et bénéficiez d'un
+                        accompagnement dans votre projet.
+                    </p>
+
+
+                    <a href="bourses.html">
+                        Découvrir →
+                    </a>
+
+                </article>
+
+
+
+                <!-- FORMATIONS -->
+
+                <article class="service-card">
+
+                    <div class="service-icon">
+                        💻
+                    </div>
+
+
+                    <span class="service-number">
+                        02
+                    </span>
+
+
+                    <h3>
+                        Formations professionnelles
+                    </h3>
+
+
+                    <p>
+                        Développez des compétences pratiques
+                        pour mieux préparer votre avenir professionnel.
+                    </p>
+
+
+                    <a href="formation.html">
+                        Découvrir →
+                    </a>
+
+                </article>
+
+
+
+                <!-- SOUTIEN -->
+
+                <article class="service-card">
+
+                    <div class="service-icon">
+                        📚
+                    </div>
+
+
+                    <span class="service-number">
+                        03
+                    </span>
+
+
+                    <h3>
+                        Soutien académique
+                    </h3>
+
+
+                    <p>
+                        Améliorez vos performances grâce à un
+                        accompagnement adapté à votre parcours.
+                    </p>
+
+
+                    <a href="soutien.html">
+                        Découvrir →
+                    </a>
+
+                </article>
+
+
+
+                <!-- INTERNSHIP -->
+
+                <article class="service-card">
+
+                    <div class="service-icon">
+                        💼
+                    </div>
+
+
+                    <span class="service-number">
+                        04
+                    </span>
+
+
+                    <h3>
+                        Internship Bridge
+                    </h3>
+
+
+                    <p>
+                        Faites le lien entre vos études,
+                        vos compétences et le monde professionnel.
+                    </p>
+
+
+                    <a href="stage.html">
+                        Découvrir →
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             POURQUOI EDUCONNECT
+        ====================================== -->
+
+        <section class="why-section section">
+
+
+            <div class="why-content">
+
+
+                <div>
+
+                    <span class="section-label">
+                        POURQUOI EDUCCONNECT ?
+                    </span>
+
+
+                    <h2>
+                        Plus qu'une plateforme,
+                        un accompagnement.
+                    </h2>
+
+
+                    <p>
+                        Notre objectif est de vous aider à mieux
+                        comprendre vos possibilités, à faire les
+                        bons choix et à avancer vers vos objectifs.
+                    </p>
+
+
+                    <a
+                        href="apropos.html"
+                        class="btn btn-primary"
+                    >
+                        Découvrir Educ Connect Africa →
+                    </a>
+
+                </div>
+
+
+
+                <div class="why-list">
+
+
+                    <div class="why-item">
+
+                        <span>
+                            01
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                Orientation
+                            </h3>
+
+                            <p>
+                                Des informations pour vous aider
+                                à mieux choisir votre parcours.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="why-item">
+
+                        <span>
+                            02
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                Accompagnement
+                            </h3>
+
+                            <p>
+                                Un soutien adapté à vos objectifs
+                                académiques et professionnels.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="why-item">
+
+                        <span>
+                            03
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                Opportunités
+                            </h3>
+
+                            <p>
+                                Découvrez différentes possibilités
+                                pour faire évoluer votre parcours.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             COMMENT ÇA MARCHE
+        ====================================== -->
+
+        <section class="section">
+
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    COMMENT ÇA MARCHE ?
+                </span>
+
+
+                <h2>
+                    Votre parcours en
+                    quelques étapes.
+                </h2>
+
+            </div>
+
+
+
+            <div class="process-grid">
+
+
+                <article class="process-card">
+
+                    <span class="process-number">
+                        01
+                    </span>
+
+                    <h3>
+                        Découvrez
+                    </h3>
+
+                    <p>
+                        Explorez les services et opportunités
+                        proposés par Educ Connect Africa.
+                    </p>
+
+                </article>
+
+
+
+                <article class="process-card">
+
+                    <span class="process-number">
+                        02
+                    </span>
+
+                    <h3>
+                        Choisissez
+                    </h3>
+
+                    <p>
+                        Sélectionnez le service qui correspond
+                        à votre projet.
+                    </p>
+
+                </article>
+
+
+
+                <article class="process-card">
+
+                    <span class="process-number">
+                        03
+                    </span>
+
+                    <h3>
+                        Contactez-nous
+                    </h3>
+
+                    <p>
+                        Présentez-nous votre situation et
+                        vos objectifs.
+                    </p>
+
+                </article>
+
+
+
+                <article class="process-card">
+
+                    <span class="process-number">
+                        04
+                    </span>
+
+                    <h3>
+                        Avancez
+                    </h3>
+
+                    <p>
+                        Commencez votre parcours avec
+                        Educ Connect Africa.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             CTA
+        ====================================== -->
+
+        <section class="cta">
+
+
+            <div class="cta-content">
+
+                <span class="section-label">
+                    VOTRE PROJET COMMENCE ICI
+                </span>
+
+
+                <h2>
+                    Prêt à construire
+                    votre prochaine étape ?
+                </h2>
+
+
+                <p>
+                    Que votre objectif soit académique
+                    ou professionnel, nous sommes là pour
+                    vous accompagner.
+                </p>
+
+
+                <a
+                    href="contact.html"
+                    class="btn btn-primary"
+                >
+                    Commencer maintenant →
+                </a>
+
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =====================================
+         FOOTER
+    ====================================== -->
+
+    <footer class="footer">
+
+
+        <div class="footer-content">
+
+
+            <div class="footer-brand">
+
+                <a
+                    href="index.html"
+                    class="logo"
+                >
+                    Educ<span>Connect Africa</span>
+                </a>
+
+
+                <p>
+                    Connecter les talents
+                    aux opportunités.
+                </p>
+
+            </div>
+
+
+
+            <div class="footer-links">
+
+                <h4>
+                    Navigation
+                </h4>
+
+
+                <a href="index.html">
+                    Accueil
+                </a>
+
+
+                <a href="bourses.html">
+                    Bourses
+                </a>
+
+
+                <a href="formation.html">
+                    Formations
+                </a>
+
+
+                <a href="soutien.html">
+                    Soutien académique
+                </a>
+
+
+                <a href="stage.html">
+                    Internship Bridge
+                </a>
+
+            </div>
+
+
+
+            <div class="footer-links">
+
+                <h4>
+                    Educ Connect Africa
+                </h4>
+
+
+                <a href="apropos.html">
+                    À propos
+                </a>
+
+
+                <a href="contact.html">
+                    Contact
+                </a>
+
+            </div>
+
+
         </div>
-        <div class="why-card">
-          <h3>Opportunités</h3>
 
-          <p>
-            Accès aux grandes universités partenaires
-            et bourses disponibles.
-          </p>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Educ Connect Africa.
+                Tous droits réservés.
+            </p>
+
         </div>
 
-        <div class="why-card">
-          <h3>Assistance</h3>
 
-          <p>
-            Support rapide via whatsapp
-            et suivi personnalisé.
-          </p>
-        </div>
+    </footer>
 
-      </div>
-      
-    </section>
 
-    <!-- FAQ -->
 
-    <setion class="faq reveal">
+    <!-- =====================================
+         WHATSAPP
+    ====================================== -->
 
-      <h2>Questions fréquentes ?</h2>
-
-      <div class="faq-box">
-
-        <h3>
-          <i class="fa-solid fa-graduation-cap"></i>
-            Comment obtenir une bourse ?
-        </h3>
-
-        <p>
-          Nous vous accompagnons dans toutes les démarches 
-          d'inscription et de candidature
-        </p>
-
-      </div>
-
-      <div class="faq-box">
-
-        <h3>Quels pays sont disponibles ?</h3>
-
-        <p>
-          Maroc, Tunisie et Biélorussie 
-        </p>
-
-      </div>
-
-      <div class="faq-box">
-
-        <h3>Comment nous contacer ?</h3>
-
-        <p>
-          Directement via whatsapp
-        </p>
-
-      </div>
-
-    </setion>
-
-    <!-- GALERIE -->
-
-    <section class="gallery reveal">
-
-      <h2>Galerie</h2>
-
-      <div class="gallery-container">
-
-        <img src="./assets/img/galery 2.jpeg" alt="student">
-        <img src="./assets/img/galety 1.jpeg" alt="student">
-        <img src="./assets/img/ARRIER PLAN.jpeg" alt="student">
-
-      </div>
-
-    </section>
-
-    <!-- CTA -->
-
-    <section class="cta">
-
-      <h2>
-        Prêt à étudier à l'étranger ?
-      </h2>
-
-      <p>
-        Contactez-nous dès aujourd'hui pour commencer votre aventure académique.
-      </p>
-
-      <a href="https://wa.me/243983425667"
-      class="cta-btn">
-
-      Discuter sur WhatsApp
-
+    <a
+        href="#"
+        class="whatsapp-float"
+        id="whatsapp-button"
+        aria-label="WhatsApp"
+    >
+        💬
     </a>
-    
-    </section>
 
-    <!-- FOOTER -->
-     <footer class="footer reveal">
 
-      <div class="footer-container">
 
-        <div class="footer-box">
+    <!-- =====================================
+         RETOUR EN HAUT
+    ====================================== -->
 
-          <h2>Educonnect Africa</h2>
+    <button
+        class="top-button"
+        id="top-button"
+        aria-label="Retour en haut"
+    >
+        ↑
+    </button>
 
-          <p>
-            Nous aidons les étudiants à poursuivre leurs études à l'étranger.
-          </p>
 
-        </div>
 
-        <div class="footer-box">
-
-          <h3>Navigation</h3>
-
-          <a href="#">Accueil</a>
-          <a href="#Services">Services</a>
-          <a href="#countries">Pays</a>
-          <a href="#contact">Contact</a>
-
-          <section class="hero">
-            <h1>Etudier à l'étranger avec une bourse</h1>
-          </section>
-
-          <p>
-            nous aidons les étudiants africains obtenir des bourses à l'étranger.
-          </p>
-
-        <a href="inscription.html" class="btn">
-          Postuler maintenant 
-        </a>
-        
-
-  
-          
-        </div>
-
-        <div class="footer-box">
-
-          <h3>Contact</h3>
-
-          <p>WhatsApp : +243 843883007</p>
-
-          <p>Kinshasa - RDC</p>
-
-        </div>
-
-        </div>
-
-      </div>
-
-      <div class="footer-bottom">
-
-        <p>
-          © 2026 Educonnect Africa Student
-        </p>
-      </div>
-     </footer>
-      
-
-    </div>
-
-  </footer>
-
-      <!-- TEMOIGNAGES -->
-       <section class="testimonials reveal">
-        <h2 class="section-title">
-          Témoignages
-        </h2>
-
-        <div class="testimonial-conainer">
-
-          <div class="testimonial-card">
-            <p>
-              Grâce à Educonnect Africa student. 
-              j'ai obtenu ma bourse au Maroc
-            </p>
-            <h3>Grâce kasongo</h3>
-          </div>
-
-          <div class="testimonial-card">
-            <p>
-              Processus rapide et accompagnement professionnel.
-            </p>
-            <h3>Sarah Mbuyi</h3>
-          </div>
-          <div class="testimonial-card">
-            <p>
-              je recommande fortement cette agence aux étudiants africains.
-            </p>
-            <h3>Patrick Ilunga</h3>
-    
-        </div>
-        </div>
-       </section>
-       
-        
-      </section>
-
-     </footer>
-     <!--WHATSAPP FLOAT -->
-     <a href="https://wa.me/2439843883007"
-     class="whatsapp-float"
-     target="_blank">
-
-     <i class="fa-brands fa-whatsapp"></i>
-    
-    </a>
+    <!-- JAVASCRIPT -->
 
     <script src="script.js"></script>
 
-    <!-- BLACK TO TOP -->
-
-    <button id="topBtn">
-      
-    </button>
-
-  </body>
+</body>
 
 </html>
